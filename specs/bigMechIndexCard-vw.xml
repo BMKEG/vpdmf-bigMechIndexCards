@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view name="BigMechIndexCard" type="Data">
+	<primitives>
+		<primitive name="BigMechIndexCard" >
+			<classes>
+				<class name="BigMechIndexCard"/>
+			</classes>
+			<pvLinks>
+				<pvLink c1="BigMechIndexCard" role="evidence" pv2="FTDFragment" c2="FTDFragment"/>
+			</pvLinks>
+		</primitive>
+		<primitive name="FTDFragment">
+			<classes>
+				<class name="ViewTable"/>
+				<class name="FTDFragment"/>
+			</classes>
+		</primitive>		
+	</primitives>
+	<vpdmfLabel format="$1$ $2$" />
+	<indexElements>
+		<indexElement pos="1" p="BigMechIndexCard" c="BigMechIndexCard" a="pmcid" />
+		<indexElement pos="2" p="BigMechIndexCard" c="BigMechIndexCard" a="code" />
+	</indexElements>
+</view>
